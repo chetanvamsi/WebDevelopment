@@ -1,53 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Fitness Form</h1>
     <form action="/process.php">
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your name here">
-        <br><br>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name here" />
+      <br /><br />
 
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" placeholder="Enter Your number">
-        <br><br>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" placeholder="Enter Your number" />
+      <br /><br />
 
-        <label for="pass">Password</label>
-        <input type="password" id="pass" placeholder="Your password">
-        <br><br>
+      <label for="pass">Password</label>
+      <input type="password" id="pass" placeholder="Your password" />
+      <br /><br />
 
-        <label for="cpass">Confirm Password</label>
-        <input type="password" id="cpass">
-        <br><br>
+      <label for="cpass">Confirm Password</label>
+      <input type="password" id="cpass" />
+      <br /><br />
 
-        <p>choose your Gender</p>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="gender">Male</label>
+      <p>choose your Gender</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="gender">Male</label>
 
-        <input type="radio" id="male" name="gender" value="female">
-        <label for="gender">Female</label>
+      <input type="radio" id="male" name="gender" value="female" />
+      <label for="gender">Female</label>
 
-        <input type="radio" id="male" name="gender" value="other">
-        <label for="gender">Other</label>
-        <br><br>
+      <input type="radio" id="male" name="gender" value="other" />
+      <label for="gender">Other</label>
+      <br /><br />
 
-        <p>choose your hobby</p>
-        <input type="checkbox" name="playing" id="playing" value="playing">
-        <label for="playing">Playing</label>
+      <p>choose your hobby</p>
+      <input type="checkbox" name="playing" id="playing" value="playing" />
+      <label for="playing">Playing</label>
 
-        <input type="checkbox" name="singing" id="singing" value="singing">
-        <label for="playing">Singing</label>
+      <input type="checkbox" name="singing" id="singing" value="singing" />
+      <label for="playing">Singing</label>
 
-        <input type="checkbox" name="dancing" id="dancing" value="dancing">
-        <label for="playing">Dancing</label>
+      <input type="checkbox" name="dancing" id="dancing" value="dancing" />
+      <label for="playing">Dancing</label>
+      <br /><br />
 
-        <br><br>
-        <input type="submit" id="Submit">
+      <label for="city">Choose a city:</label>
+      <select id="city" name="city">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="bangalore">Bangalore</option>
+      </select>
 
+      <br /><br />
+      <input type="submit" id="Submit" />
     </form>
-</body>
+  </body>
 </html>
